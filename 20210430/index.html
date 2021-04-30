@@ -30,6 +30,7 @@
         : "https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/print/paper.css";
       document.getElementsByTagName("head")[0].appendChild(link);
     </script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
     <link rel="stylesheet" href="index.css" />
   </head>
 
@@ -68,6 +69,37 @@
             <img
               src="https://miro.medium.com/max/377/1*OayJBG8RfpYtf6D5AJMViA.png"
             />
+          </section>
+        </section>
+        <section>
+          <section>
+            Example
+          </section>
+          <section>
+            <code>
+              {
+                "status" : "success",
+                "data" : {
+                  "network" : "BTCTEST",
+                  "blockhash" : "000000000000000a3449924bb9b009a120dad49704a650f58e6531fb1eda5712",
+                  "block_no" : 1973143,
+                  "mining_difficulty" : "137403310.5898755",
+                  "time" : 1619735605,
+                  "confirmations" : 28,
+                  "is_orphan" : false,
+                  "txs" : [
+                    "ac4043980ebfef82f84057f2a3a7984c51e181bcad88d65e93a4f1a1d991808e",
+                    "8aa5880799111d516889e42394cbd45ec938e976ea464489065883f137ee8568",
+                    "56d22bf75c0dd6e5ee35b2f7d526111a1a208254412afd9d3124fdfc83f86ce7",
+                    "0ba617bad0af32362152d850fcbd95b754478cfff9e358f32dc7137367b64fad"
+                  ],
+                  "merkleroot" : "c74c3740f8f082a74ad2c804fb61747b4a1329c73753651493ce30420ae62044",
+                  "previous_blockhash" : "00000000000000132b752d7ba17cdcd9a924f91149ba99efe59b6c7da6c6974a",
+                  "next_blockhash" : "000000009ab4d0f0ab5c4e8c0ce366a48cebd2ccc5a33da0677d1d10dd0f4ff7",
+                  "size" : 1620
+                }
+              }
+            </code>
           </section>
         </section>
         <section>
